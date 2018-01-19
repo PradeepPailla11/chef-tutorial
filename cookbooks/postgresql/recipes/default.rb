@@ -13,6 +13,6 @@ execute 'postgresql-init' do
 	action :nothing
 end
 
-service 'postgreswl' do
+service 'postgresql' do
 	action [:enable, :start]
 end
