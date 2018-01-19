@@ -11,12 +11,12 @@ elsif node['platform_family'] == "debian"
 end
 
 package 'apache2' do
-	package_name 'package'
+	package_name package
 	action :install
 end
 
 service 'apache2' do
-	service_name 'httpd'
+	service_name package
 	action [:enable, :start]
 end
 
