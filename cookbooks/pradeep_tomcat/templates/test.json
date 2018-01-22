@@ -1,0 +1,5 @@
+{
+	"EnvName" : "TomcatServer",
+	"AdminPort" : 7001,
+	"httpsport" : 7003
+}
